@@ -24,38 +24,17 @@ ul li {
 }
 
 @keyframes animate {
-  0% {
-    color: #484848;
-    text-shadow: none;
-  }
-  18% {
-    color: #484848;
-    text-shadow: none;
-  }
-  20% {
-    color: #fff900;
-    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
-  }
-  30% {
-    color: #484848;
-    text-shadow: none;
-  }
-  35% {
-    color: #fff900;
-    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
-  }
-  70% {
-    color: #484848;
-    text-shadow: none;
-  }
-  85% {
-    color: #fff900;
-    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
-  }
+  0%,
+  18%,
+  30%,
+  70%,
   90% {
     color: #484848;
     text-shadow: none;
   }
+  20%,
+  35%,
+  85%,
   95% {
     color: #fff900;
     text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
